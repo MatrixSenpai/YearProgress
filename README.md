@@ -1,4 +1,10 @@
 # YearProgress
+<p align="center">
+  [![Build Status](https://travis-ci.org/MatrixSenpai/YearProgress.svg?branch=master)](https://travis-ci.org/MatrixSenpai/YearProgress)
+  [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+  [![Version](https://img.shields.io/badge/version-1.0.0-red.svg)]()
+  [![Contributing](https://img.shields.io/badge/Contribute-Get_Your_Own_Project-red.svg)]()
+</p>
 A small app that shows the current progress of the year and day
 
 Includes a clock in-app, as well as a Today extension.
