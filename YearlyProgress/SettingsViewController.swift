@@ -1,0 +1,23 @@
+//
+//  SettingsViewController.swift
+//  YearlyProgress
+//
+//  Created by Mason Phillips on 2/3/18.
+//  Copyright © 2018 Matrix Studios. All rights reserved.
+//
+
+import UIKit
+
+class SettingsViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+}
