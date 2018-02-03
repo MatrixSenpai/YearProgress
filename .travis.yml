@@ -2,3 +2,6 @@ language: swift
 osx_image: xcode9.2
 xcode_project: YearlyProgress.xcworkspace
 xcode_scheme: YearlyProgress
+
+before_script:
+    - gem install cocoapods --pre
