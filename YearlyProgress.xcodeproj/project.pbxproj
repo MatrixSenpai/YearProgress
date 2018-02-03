@@ -25,6 +25,7 @@
 		2AF1CDC02025830300B20485 /* MenuTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1CDBF2025830300B20485 /* MenuTableHeaderView.swift */; };
 		2AF1CDC220258D0400B20485 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1CDC120258D0400B20485 /* .travis.yml */; };
 		2AF1CDC4202595C200B20485 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1CDC3202595C200B20485 /* README.md */; };
+		2AF1CDC62025996700B20485 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1CDC52025996600B20485 /* SnapshotHelper.swift */; };
 		C28EF39F58D8FD985BDC0173 /* Pods_DaWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9734BA6581B01ECF964B8E71 /* Pods_DaWidget.framework */; };
 		EDF50188791BF3A5A59E7236 /* Pods_YearlyProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD4C80F81234B2DBE53D196 /* Pods_YearlyProgress.framework */; };
 /* End PBXBuildFile section */
@@ -89,6 +90,7 @@
 		2AF1CDBF2025830300B20485 /* MenuTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableHeaderView.swift; sourceTree = "<group>"; };
 		2AF1CDC120258D0400B20485 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		2AF1CDC3202595C200B20485 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2AF1CDC52025996600B20485 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		2E022E83ADCFBF806E3719AE /* Pods-YearlyProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YearlyProgress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YearlyProgress/Pods-YearlyProgress.debug.xcconfig"; sourceTree = "<group>"; };
 		34C93FCC02974E40C846DF98 /* Pods-DaWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaWidget/Pods-DaWidget.release.xcconfig"; sourceTree = "<group>"; };
 		7B0EAA44A954F0B91B538127 /* Pods-YearlyProgress-DaWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YearlyProgress-DaWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YearlyProgress-DaWidget/Pods-YearlyProgress-DaWidget.debug.xcconfig"; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 		2AF1CDAE2025808300B20485 /* YearlyProgressUITests */ = {
 			isa = PBXGroup;
 			children = (
+				2AF1CDC52025996600B20485 /* SnapshotHelper.swift */,
 				2AF1CDAF2025808300B20485 /* YearlyProgressUITests.swift */,
 				2AF1CDB12025808300B20485 /* Info.plist */,
 			);
@@ -490,6 +493,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AF1CDB02025808300B20485 /* YearlyProgressUITests.swift in Sources */,
+				2AF1CDC62025996700B20485 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
