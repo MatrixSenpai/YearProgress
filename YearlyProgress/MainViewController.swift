@@ -11,8 +11,13 @@ import M13ProgressSuite
 import Neon
 import Datez
 import Timepiece
+import MMDrawerController
 
 class MainViewController: UIViewController {
+    
+    var leftButton: MMDrawerBarButtonItem {
+        return MMDrawerBarButtonItem(target: self, action: #selector(MainViewController.toggleDrawer))
+    }
 
     var clockHour: UILabel!
     var clockMin: UILabel!
@@ -34,6 +39,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = .white
+        navigationItem.leftBarButtonItem = leftButton
         
         // Set up hour label
         clockHour = UILabel()
@@ -126,12 +132,7 @@ class MainViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @objc func updateClock() {
-        let now = Date()
-        clockHour.text = String(format: "%02d", now.currentCalendar.components.hour)
-        clockMin.text = String(format: "%02d", now.currentCalendar.components.minute)
-    }
-
+    // MARK: - System Functions
     func getDaysPast() -> Int {
         let now = Date()
         
@@ -159,8 +160,20 @@ class MainViewController: UIViewController {
               else { return false }
         return true
     }
+    
+    // MARK: - @objc functions
+    @objc func updateClock() {
+        let now = Date()
+        clockHour.text = String(format: "%02d", now.currentCalendar.components.hour)
+        clockMin.text = String(format: "%02d", now.currentCalendar.components.minute)
+    }
+    
+    @objc func toggleDrawer() {
+        ((mm_drawerController.openSide == .none) ? mm_drawerController.open(.left, animated: true, completion: nil) : mm_drawerController.closeDrawer(animated: true, completion: nil))
+    }
 }
 
+// MARK: - DaysOfWeek enum
 enum DayOfWeek: Int {
     case sun = 1
     case mon = 2

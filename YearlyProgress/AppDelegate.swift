@@ -8,11 +8,13 @@
 
 import UIKit
 import FontBlaster
+import MMDrawerController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var menuController: MMDrawerController!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FontBlaster.blast()
@@ -20,7 +22,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         
         let main = MainViewController()
-        window?.rootViewController = UINavigationController(rootViewController: main)
+        let mainNav = UINavigationController(rootViewController: main)
+        
+        let menu = MenuTableViewController()
+        
+        menuController = MMDrawerController(center: mainNav, leftDrawerViewController: menu)
+        
+        window?.rootViewController = menuController
         window?.makeKeyAndVisible()
         
         return true

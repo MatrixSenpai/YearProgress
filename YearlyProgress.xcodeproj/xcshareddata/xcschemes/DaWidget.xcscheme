@@ -44,13 +44,23 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2AF1CDAC2025808300B20485"
+               BuildableName = "YearlyProgressUITests.xctest"
+               BlueprintName = "YearlyProgressUITests"
+               ReferencedContainer = "container:YearlyProgress.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2AA35DB720253145002A3D72"
-            BuildableName = "DaWidget.appex"
-            BlueprintName = "DaWidget"
+            BlueprintIdentifier = "2AA35D9E2025311C002A3D72"
+            BuildableName = "YearlyProgress.app"
+            BlueprintName = "YearlyProgress"
             ReferencedContainer = "container:YearlyProgress.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
