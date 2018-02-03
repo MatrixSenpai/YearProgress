@@ -6,4 +6,5 @@ xcode_scheme: YearlyProgressUITests
 before_install:
     - pod install
 
-notifications: never
+notifications:
+  email: never
