@@ -65,6 +65,7 @@
 		2AF1CDA02025573800B20485 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2AF1CDA420255DEE00B20485 /* DIGITALDREAM.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DIGITALDREAM.ttf; sourceTree = "<group>"; };
 		2AF1CDA620255E5100B20485 /* HomeViewDesign.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewDesign.xib; sourceTree = "<group>"; };
+		2AF1CDA8202573FB00B20485 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2E022E83ADCFBF806E3719AE /* Pods-YearlyProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YearlyProgress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YearlyProgress/Pods-YearlyProgress.debug.xcconfig"; sourceTree = "<group>"; };
 		34C93FCC02974E40C846DF98 /* Pods-DaWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaWidget/Pods-DaWidget.release.xcconfig"; sourceTree = "<group>"; };
 		7B0EAA44A954F0B91B538127 /* Pods-YearlyProgress-DaWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YearlyProgress-DaWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YearlyProgress-DaWidget/Pods-YearlyProgress-DaWidget.debug.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +110,7 @@
 		2AA35D962025311C002A3D72 = {
 			isa = PBXGroup;
 			children = (
+				2AF1CDA8202573FB00B20485 /* LICENSE */,
 				2AA35DA12025311C002A3D72 /* YearlyProgress */,
 				2AA35DBC20253145002A3D72 /* DaWidget */,
 				2AA35DB920253145002A3D72 /* Frameworks */,
