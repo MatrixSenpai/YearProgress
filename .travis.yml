@@ -4,5 +4,5 @@ xcode_project: YearlyProgress.xcworkspace
 xcode_scheme: YearlyProgress
 
 before_install:
-    - gem install cocoapods --pre
+    - gem install cocoapods -v '~> 1.4.0'
     - pod install
