@@ -8,6 +8,8 @@ target 'YearlyProgress' do
   pod 'MMDrawerController'
   pod 'FontAwesome.swift'
   pod 'Timepiece'
+  pod 'SwiftyUserDefaults'
+  pod 'Eureka'
   pod 'Neon'
   pod 'M13ProgressSuite'
 

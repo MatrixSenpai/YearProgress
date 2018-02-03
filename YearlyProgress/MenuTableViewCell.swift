@@ -7,18 +7,21 @@
 //
 
 import UIKit
+import FontAwesome_swift
 
 class MenuTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var IconLabel: UILabel!
+    @IBOutlet weak var MenuLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        IconLabel.font = UIFont.fontAwesome(ofSize: 20)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
 }
