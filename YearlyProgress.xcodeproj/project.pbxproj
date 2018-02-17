@@ -17,19 +17,12 @@
 		2AA35DC520253145002A3D72 /* DaWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2AA35DB820253145002A3D72 /* DaWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2AF1CDA12025573800B20485 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1CDA02025573800B20485 /* MainViewController.swift */; };
 		2AF1CDA520255E3300B20485 /* DIGITALDREAM.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1CDA420255DEE00B20485 /* DIGITALDREAM.ttf */; };
-		2AF1CDA720255E5100B20485 /* HomeViewDesign.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1CDA620255E5100B20485 /* HomeViewDesign.xib */; };
 		2AF1CDB02025808300B20485 /* YearlyProgressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1CDAF2025808300B20485 /* YearlyProgressUITests.swift */; };
-		2AF1CDBA2025812300B20485 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1CDB92025812300B20485 /* MenuTableViewController.swift */; };
-		2AF1CDBD2025813200B20485 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1CDBB2025813200B20485 /* MenuTableViewCell.swift */; };
-		2AF1CDBE2025813200B20485 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1CDBC2025813200B20485 /* MenuTableViewCell.xib */; };
-		2AF1CDC02025830300B20485 /* MenuTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1CDBF2025830300B20485 /* MenuTableHeaderView.swift */; };
 		2AF1CDC220258D0400B20485 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1CDC120258D0400B20485 /* .travis.yml */; };
 		2AF1CDC4202595C200B20485 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1CDC3202595C200B20485 /* README.md */; };
 		2AF1CDC62025996700B20485 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1CDC52025996600B20485 /* SnapshotHelper.swift */; };
-		2AF1CDC820259ABB00B20485 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1CDC720259ABB00B20485 /* SettingsViewController.swift */; };
 		2AF1CDCA20259AFB00B20485 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1CDC920259AFB00B20485 /* Settings.bundle */; };
 		2AF1CDCF2025A84700B20485 /* DefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1CDCE2025A84700B20485 /* DefaultsKeys.swift */; };
-		C28EF39F58D8FD985BDC0173 /* Pods_DaWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9734BA6581B01ECF964B8E71 /* Pods_DaWidget.framework */; };
 		EDF50188791BF3A5A59E7236 /* Pods_YearlyProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD4C80F81234B2DBE53D196 /* Pods_YearlyProgress.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,19 +75,13 @@
 		2AA35DC220253145002A3D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AF1CDA02025573800B20485 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2AF1CDA420255DEE00B20485 /* DIGITALDREAM.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DIGITALDREAM.ttf; sourceTree = "<group>"; };
-		2AF1CDA620255E5100B20485 /* HomeViewDesign.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewDesign.xib; sourceTree = "<group>"; };
 		2AF1CDA8202573FB00B20485 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2AF1CDAD2025808300B20485 /* YearlyProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YearlyProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF1CDAF2025808300B20485 /* YearlyProgressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearlyProgressUITests.swift; sourceTree = "<group>"; };
 		2AF1CDB12025808300B20485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AF1CDB92025812300B20485 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
-		2AF1CDBB2025813200B20485 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
-		2AF1CDBC2025813200B20485 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
-		2AF1CDBF2025830300B20485 /* MenuTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableHeaderView.swift; sourceTree = "<group>"; };
 		2AF1CDC120258D0400B20485 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		2AF1CDC3202595C200B20485 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2AF1CDC52025996600B20485 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
-		2AF1CDC720259ABB00B20485 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		2AF1CDC920259AFB00B20485 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		2AF1CDCE2025A84700B20485 /* DefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsKeys.swift; sourceTree = "<group>"; };
 		2E022E83ADCFBF806E3719AE /* Pods-YearlyProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YearlyProgress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YearlyProgress/Pods-YearlyProgress.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,7 +104,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AA35DBB20253145002A3D72 /* NotificationCenter.framework in Frameworks */,
-				C28EF39F58D8FD985BDC0173 /* Pods_DaWidget.framework in Frameworks */,
 				2172EC1593417952892318D6 /* Pods_YearlyProgress_DaWidget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,11 +202,6 @@
 			isa = PBXGroup;
 			children = (
 				2AF1CDA02025573800B20485 /* MainViewController.swift */,
-				2AF1CDB92025812300B20485 /* MenuTableViewController.swift */,
-				2AF1CDBF2025830300B20485 /* MenuTableHeaderView.swift */,
-				2AF1CDBB2025813200B20485 /* MenuTableViewCell.swift */,
-				2AF1CDBC2025813200B20485 /* MenuTableViewCell.xib */,
-				2AF1CDC720259ABB00B20485 /* SettingsViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -232,7 +213,6 @@
 				2AA35DA92025311C002A3D72 /* Assets.xcassets */,
 				2AA35DAB2025311C002A3D72 /* LaunchScreen.storyboard */,
 				2AA35DAE2025311C002A3D72 /* Info.plist */,
-				2AF1CDA620255E5100B20485 /* HomeViewDesign.xib */,
 				2AF1CDC920259AFB00B20485 /* Settings.bundle */,
 			);
 			name = Assets;
@@ -362,10 +342,8 @@
 				2AF1CDCA20259AFB00B20485 /* Settings.bundle in Resources */,
 				2AF1CDC220258D0400B20485 /* .travis.yml in Resources */,
 				2AA35DAD2025311C002A3D72 /* LaunchScreen.storyboard in Resources */,
-				2AF1CDA720255E5100B20485 /* HomeViewDesign.xib in Resources */,
 				2AF1CDC4202595C200B20485 /* README.md in Resources */,
 				2AA35DAA2025311C002A3D72 /* Assets.xcassets in Resources */,
-				2AF1CDBE2025813200B20485 /* MenuTableViewCell.xib in Resources */,
 				2AF1CDA520255E3300B20485 /* DIGITALDREAM.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,13 +486,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AF1CDC02025830300B20485 /* MenuTableHeaderView.swift in Sources */,
 				2AA35DA32025311C002A3D72 /* AppDelegate.swift in Sources */,
 				2AF1CDA12025573800B20485 /* MainViewController.swift in Sources */,
-				2AF1CDBD2025813200B20485 /* MenuTableViewCell.swift in Sources */,
 				2AF1CDCF2025A84700B20485 /* DefaultsKeys.swift in Sources */,
-				2AF1CDBA2025812300B20485 /* MenuTableViewController.swift in Sources */,
-				2AF1CDC820259ABB00B20485 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,7 +664,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.matrixstudios.YearlyProgress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -707,7 +681,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.matrixstudios.YearlyProgress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -715,7 +689,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B0EAA44A954F0B91B538127 /* Pods-YearlyProgress-DaWidget.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6S4L29QT59;
 				INFOPLIST_FILE = DaWidget/Info.plist;
@@ -732,7 +706,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 005C8FFCC6C8AC4C23A306BE /* Pods-YearlyProgress-DaWidget.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6S4L29QT59;
 				INFOPLIST_FILE = DaWidget/Info.plist;

@@ -22,13 +22,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         
         let main = MainViewController()
+        /* removing for release
         let mainNav = UINavigationController(rootViewController: main)
         
         let menu = MenuTableViewController()
         
         menuController = MMDrawerController(center: mainNav, leftDrawerViewController: menu)
-        
-        window?.rootViewController = menuController
+        */
+        window?.rootViewController = main
         window?.makeKeyAndVisible()
         
         return true
