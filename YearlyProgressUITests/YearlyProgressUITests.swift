@@ -31,10 +31,6 @@ class YearlyProgressUITests: XCTestCase {
     }
     
     func testUI() {
-        let button = XCUIApplication().navigationBars["YearlyProgress.MainView"].children(matching: .button).element
-        button.tap()
-        button.tap()
-        
-        XCTAssert(true, "Check")
+        snapshot("MainInterface")
     }
 }
