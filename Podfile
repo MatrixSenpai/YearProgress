@@ -9,7 +9,6 @@ target 'YearlyProgress' do
   pod 'FontAwesome.swift'
   pod 'Timepiece'
   pod 'SwiftyUserDefaults'
-  pod 'Eureka'
   pod 'Neon'
   pod 'M13ProgressSuite'
 

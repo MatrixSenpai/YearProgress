@@ -1,7 +1,3 @@
-devices([
-  "iPhone 6",
-])
-
 languages([
    "en-US",
 ])
